@@ -50,3 +50,6 @@ Desktop.ini
 # Unity Build
 out/*
 debug.txt
+
+#Jetbrains
+.idea/
