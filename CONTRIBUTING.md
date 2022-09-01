@@ -10,10 +10,10 @@ git submodule update --init --recursive
 You must run a script to **select a unity versions**. Now we recommend using the `2021.3.0f1` version.  
 Please run the scripts below in the root folder.
 
-If you never set execution policy on Powershell, your execution policy would be set `Restricted`, which is default execution policy for Windows client computers. 
-You need to change policy to execute Powershell scripts.
+If you never set execution policy on Powershell, your execution policy would be set `Restricted`, which is default execution policy for Windows client computers.  
+You need to change policy to execute Powershell scripts.  
 ```powershell
-Set-ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 ```
 
 ___if you use PowerShell 7.2.x versions check this [Issue](https://github.com/PowerShell/PowerShell/issues/17322)___
